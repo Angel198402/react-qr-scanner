@@ -1,0 +1,25 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        "@babel/env",
+        "@babel/react"
+      ]
+    }
+  },
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false
+      }
+    ],
+    "@babel/react"
+  ],
+  "ignore": [
+    "node_modules/**"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ]
+}
